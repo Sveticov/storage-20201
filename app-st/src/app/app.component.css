@@ -1,0 +1,56 @@
+.header{
+
+}
+.area-work{
+  position: absolute;
+  top:120px;
+  left: 20px;
+  width: 1300px;
+  height: 570px;
+  background-color: darkgray;
+  border: 1px solid black;
+}
+.car1{
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  top: 155px;
+  left: 100px;
+}
+.satelit1-car1{
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  top: 150px;
+  left: 110px;
+}
+.satelit2-car1{
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  top: 159px;
+  left: 110px;
+}
+
+
+.car2{
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  top: 155px;
+  left: 700px;
+}
+.satelit1-car2{
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  top: 150px;
+  left: 710px;
+}
+.satelit2-car2{
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  top: 159px;
+  left: 710px;
+}
