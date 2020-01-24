@@ -1,0 +1,30 @@
+<p>app-plc works!</p>
+<div>
+<form #plcForm="ngForm" (ngSubmit)="plcSubmit(plcForm)">
+<div>
+  <label for="adrIP">ip address:</label>
+  <input type="text" id="adrIP" [(ngModel)]="plcDataL.adrIP" name="adrIP" ngModel>
+
+  <label for="lengthRead">length read:</label>
+  <input id="lengthRead" [(ngModel)]="plcDataL.lengthRead" name="lengthRead" ngModel>
+
+  <label for="lengthWrite">length write:</label>
+  <input id="lengthWrite" [(ngModel)]="plcDataL.lengthWrite" name="lengthWrite" ngModel>
+
+  <label for="dbRead">dbRead:</label>
+  <input id="dbRead" [(ngModel)]="plcDataL.dbRead" name="dbRead" ngModel>
+
+  <label for="dbWrite">dbWrite:</label>
+  <input id="dbWrite" [(ngModel)]="plcDataL.dbWrite" name="dbWrite" ngModel>
+
+  <label for="rack">rack:</label>
+  <input id="rack" [(ngModel)]="plcDataL.rack" name="rack" ngModel>
+
+  <label for="slot">slot:</label>
+  <input id="slot" [(ngModel)]="plcDataL.slot" name="slot" ngModel>
+
+  <button type="submit">Submit</button>
+</div>
+
+</form>
+</div>

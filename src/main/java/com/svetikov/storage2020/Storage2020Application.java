@@ -49,7 +49,7 @@ public class Storage2020Application implements CommandLineRunner {
 
         modelService.saveModel(plcData);
 //        Thread.sleep(3000);
-        plcComponent.onInitPLC();
+//        plcComponent.onInitPLC();
 //        plcComponent.onInitDBAreaPLC();
 
 
